@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf8"?>
+<TextureAtlas imagePath="LudoAnnoyed.png">
+	<!-- Created with Adobe Flash CS6 version 12.0.0.481 -->
+	<!-- http://www.adobe.com/products/flash.html -->
+	<SubTexture name="LudoDown0000" x="437" y="0" width="388" height="599"/>
+	<SubTexture name="LudoDown0001" x="437" y="599" width="388" height="599"/>
+	<SubTexture name="LudoDown0002" x="437" y="1198" width="388" height="599"/>
+	<SubTexture name="LudoDown0003" x="437" y="1797" width="388" height="599"/>
+	<SubTexture name="LudoDown0004" x="437" y="2396" width="388" height="599"/>
+	<SubTexture name="LudoDown0005" x="437" y="2995" width="388" height="599"/>
+	<SubTexture name="LudoIdle0000" x="1542" y="0" width="318" height="599"/>
+	<SubTexture name="LudoIdle0001" x="1542" y="599" width="318" height="599"/>
+	<SubTexture name="LudoIdle0002" x="1542" y="1198" width="318" height="599"/>
+	<SubTexture name="LudoIdle0003" x="1542" y="1797" width="318" height="599"/>
+	<SubTexture name="LudoIdle0004" x="1542" y="2396" width="318" height="599"/>
+	<SubTexture name="LudoIdle0005" x="1542" y="2995" width="318" height="599"/>
+	<SubTexture name="LudoIdle0006" x="1860" y="0" width="318" height="599"/>
+	<SubTexture name="LudoIdle0007" x="1860" y="599" width="318" height="599"/>
+	<SubTexture name="LudoIdle0008" x="1860" y="1198" width="318" height="599"/>
+	<SubTexture name="LudoIdle0009" x="1860" y="1797" width="318" height="599"/>
+	<SubTexture name="LudoLeft0000" x="0" y="0" width="437" height="622"/>
+	<SubTexture name="LudoLeft0001" x="0" y="622" width="437" height="622"/>
+	<SubTexture name="LudoLeft0002" x="0" y="1244" width="437" height="622"/>
+	<SubTexture name="LudoLeft0003" x="0" y="1866" width="437" height="622"/>
+	<SubTexture name="LudoLeft0004" x="0" y="2488" width="437" height="622"/>
+	<SubTexture name="LudoLeft0005" x="0" y="3110" width="437" height="622"/>
+	<SubTexture name="LudoRight0000" x="825" y="0" width="381" height="599"/>
+	<SubTexture name="LudoRight0001" x="825" y="599" width="381" height="599"/>
+	<SubTexture name="LudoRight0002" x="825" y="1198" width="381" height="599"/>
+	<SubTexture name="LudoRight0003" x="825" y="1797" width="381" height="599"/>
+	<SubTexture name="LudoRight0004" x="825" y="2396" width="381" height="599"/>
+	<SubTexture name="LudoRight0005" x="825" y="2995" width="381" height="599"/>
+	<SubTexture name="LudoUp0000" x="1206" y="0" width="336" height="657"/>
+	<SubTexture name="LudoUp0001" x="1206" y="657" width="336" height="657"/>
+	<SubTexture name="LudoUp0002" x="1206" y="1314" width="336" height="657"/>
+	<SubTexture name="LudoUp0003" x="1206" y="1971" width="336" height="657"/>
+	<SubTexture name="LudoUp0004" x="1206" y="2628" width="336" height="657"/>
+	<SubTexture name="LudoUp0005" x="1206" y="3285" width="336" height="657"/>
+</TextureAtlas>

@@ -361,6 +361,8 @@ class PlayState extends MusicBeatState
 				iconRPC = 'monster';
 			case 'mom-car':
 				iconRPC = 'mom';
+			case 'ludomad':
+				iconRPC = 'ludo';
 		}
 
 		// String that contains the mode defined here so it isn't necessary to call changePresence for each mode
@@ -464,7 +466,7 @@ class PlayState extends MusicBeatState
 		switch(songLowercase)
 		{
 			//if the song has dialogue, so we don't accidentally try to load a nonexistant file and crash the game
-			case 'senpai' | 'roses' | 'thorns':
+			case 'senpai' | 'roses' | 'thorns' | 'cell' | 'drift' | 'compile':
 				dialogue = CoolUtil.coolTextFile(Paths.txt('data/$songLowercase/dialogue'));
 		}
 
@@ -643,6 +645,8 @@ class PlayState extends MusicBeatState
 				dad.x -= 150;
 				dad.y += 100;
 				camPos.set(dad.getGraphicMidpoint().x + 300, dad.getGraphicMidpoint().y);
+			case 'ludo' | 'ludomad':
+				dad.y += 125;
 		}
 
 		// REPOSITIONING PER STAGE
@@ -1000,6 +1004,12 @@ class PlayState extends MusicBeatState
 					FlxG.sound.play(Paths.sound('ANGRY'));
 					schoolIntro(doof);
 				case 'thorns':
+					schoolIntro(doof);
+				case 'cell':
+					schoolIntro(doof);
+				case 'drift':
+					schoolIntro(doof);
+				case 'compile':
 					schoolIntro(doof);
 				default:
 					new FlxTimer().start(1, function(timer) {

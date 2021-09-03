@@ -378,6 +378,32 @@ class Character extends FlxSprite
 				loadOffsetFile(curCharacter);
 
 				playAnim('idle');
+			case 'ludo':
+				frames = Paths.getSparrowAtlas('Ludo', 'shared', true);
+				animation.addByPrefix('idle', 'LudoIdle', 24, false);
+				animation.addByPrefix('singUP', 'LudoUp', 24, false);
+				animation.addByPrefix('singDOWN', 'LudoDown', 24, false);
+				animation.addByPrefix('singLEFT', 'LudoLeft', 24, false);
+				animation.addByPrefix('singRIGHT', 'LudoRight', 24, false);
+				addOffset('idle');
+				addOffset('singUP');
+				addOffset('singDOWN');
+				addOffset('singLEFT');
+				addOffset('singRIGHT');
+				playAnim('idle');
+			case 'ludomad':
+				frames = Paths.getSparrowAtlas('LudoAnnoyed', 'shared', true);
+				animation.addByPrefix('idle', 'LudoIdle', 24, false);
+				animation.addByPrefix('singUP', 'LudoUp', 24, false);
+				animation.addByPrefix('singDOWN', 'LudoDown', 24, false);
+				animation.addByPrefix('singLEFT', 'LudoLeft', 24, false);
+				animation.addByPrefix('singRIGHT', 'LudoRight', 24, false);
+				addOffset('idle');
+				addOffset('singUP');
+				addOffset('singDOWN');
+				addOffset('singLEFT');
+				addOffset('singRIGHT');
+				playAnim('idle');
 		}
 
 		dance();

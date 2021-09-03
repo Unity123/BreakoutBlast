@@ -259,6 +259,28 @@ class Stage
 						swagBacks['evilSnow'] = evilSnow;
                         toAdd.push(evilSnow);
 					}
+				case 'prison':
+					{
+						camZoom = 0.9;
+						var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('prison'));
+						bg.antialiasing = FlxG.save.data.antialiasing;
+						bg.scrollFactor.set(0.9, 0.9);
+						bg.setGraphicSize(2100);
+						bg.active = false;
+						swagBacks['bg'] = bg;
+                        toAdd.push(bg);
+					}
+				case 'prisonbroken':
+					{
+						camZoom = 0.9;
+						var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('prisonbroken'));
+						bg.antialiasing = FlxG.save.data.antialiasing;
+						bg.scrollFactor.set(0.9, 0.9);
+						bg.setGraphicSize(2100);
+						bg.active = false;
+						swagBacks['bg'] = bg;
+                        toAdd.push(bg);
+					}
 				case 'school':
 					{
 						// defaultCamZoom = 0.9;
