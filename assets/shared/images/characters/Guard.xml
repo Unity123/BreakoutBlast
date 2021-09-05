@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf8"?>
+<TextureAtlas imagePath="Guard.png">
+	<!-- Created with Adobe Flash CS6 version 12.0.0.481 -->
+	<!-- http://www.adobe.com/products/flash.html -->
+	<SubTexture name="GuardDown0000" x="1443" y="1640" width="481" height="752"/>
+	<SubTexture name="GuardDown0001" x="1924" y="1640" width="481" height="752"/>
+	<SubTexture name="GuardDown0002" x="2405" y="2206" width="481" height="752"/>
+	<SubTexture name="GuardDown0003" x="2886" y="2206" width="481" height="752"/>
+	<SubTexture name="GuardIdle0000" x="2796" y="0" width="534" height="727"/>
+	<SubTexture name="GuardIdle0001" x="3330" y="0" width="534" height="727"/>
+	<SubTexture name="GuardIdle0002" x="2796" y="727" width="534" height="727"/>
+	<SubTexture name="GuardIdle0003" x="3330" y="727" width="534" height="727"/>
+	<SubTexture name="GuardIdle0004" x="0" y="888" width="534" height="727"/>
+	<SubTexture name="GuardIdle0005" x="534" y="888" width="534" height="727"/>
+	<SubTexture name="GuardIdle0006" x="1068" y="888" width="534" height="727"/>
+	<SubTexture name="GuardLeft0000" x="3526" y="1454" width="481" height="752"/>
+	<SubTexture name="GuardLeft0001" x="0" y="1615" width="481" height="752"/>
+	<SubTexture name="GuardLeft0002" x="481" y="1615" width="481" height="752"/>
+	<SubTexture name="GuardLeft0003" x="962" y="1615" width="481" height="752"/>
+	<SubTexture name="GuardRight0000" x="1602" y="888" width="481" height="752"/>
+	<SubTexture name="GuardRight0001" x="2083" y="888" width="481" height="752"/>
+	<SubTexture name="GuardRight0002" x="2564" y="1454" width="481" height="752"/>
+	<SubTexture name="GuardRight0003" x="3045" y="1454" width="481" height="752"/>
+	<SubTexture name="GuardUp0000" x="0" y="0" width="699" height="888"/>
+	<SubTexture name="GuardUp0001" x="699" y="0" width="699" height="888"/>
+	<SubTexture name="GuardUp0002" x="1398" y="0" width="699" height="888"/>
+	<SubTexture name="GuardUp0003" x="2097" y="0" width="699" height="888"/>
+</TextureAtlas>

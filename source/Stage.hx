@@ -281,6 +281,24 @@ class Stage
 						swagBacks['bg'] = bg;
                         toAdd.push(bg);
 					}
+				case 'outside':
+					{
+						camZoom = 0.9;
+						var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('outside'));
+						bg.antialiasing = FlxG.save.data.antialiasing;
+						bg.scrollFactor.set(0.5, 0.5);
+						bg.setGraphicSize(2100);
+						bg.active = false;
+						swagBacks['bg'] = bg;
+                        toAdd.push(bg);
+						var trees:FlxSprite = new FlxSprite(-520, -15).loadGraphic(Paths.image('trees'));
+						trees.antialiasing = FlxG.save.data.antialiasing;
+						trees.scrollFactor.set(0.9, 0.9);
+						trees.setGraphicSize(2114);
+						trees.active = false;
+						swagBacks['trees'] = trees;
+                        toAdd.push(trees);
+					}
 				case 'school':
 					{
 						// defaultCamZoom = 0.9;

@@ -404,6 +404,19 @@ class Character extends FlxSprite
 				addOffset('singLEFT');
 				addOffset('singRIGHT');
 				playAnim('idle');
+			case 'guard':
+				frames = Paths.getSparrowAtlas('Guard', 'shared', true);
+				animation.addByPrefix('idle', 'GuardIdle', 24, false);
+				animation.addByPrefix('singUP', 'GuardUp', 24, false);
+				animation.addByPrefix('singDOWN', 'GuardDown', 24, false);
+				animation.addByPrefix('singLEFT', 'GuardLeft', 24, false);
+				animation.addByPrefix('singRIGHT', 'GuardRight', 24, false);
+				addOffset('idle');
+				addOffset('singUP');
+				addOffset('singDOWN');
+				addOffset('singLEFT');
+				addOffset('singRIGHT');
+				playAnim('idle');
 		}
 
 		dance();
